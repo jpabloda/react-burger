@@ -1,0 +1,94 @@
+.burger {
+  align-self: center;
+  color: white;
+}
+
+.burger input {
+  background: transparent;
+  border: none;
+  color: white;
+  border-bottom: 5px dashed black;
+  min-width: 400px;
+  margin-top: 40px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.burger input::placeholder {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.burger input:focus {
+  outline: none;
+  border: 2px dotted black;
+}
+
+.burger .add-btn {
+  padding: 10px;
+  border-radius: 30%;
+  color: black;
+  font-size: 1.2rem;
+  background-color: yellow;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+.burger.add-btn:hover {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.burger ul {
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.burger ul li {
+  list-style: none;
+  margin-bottom: 4px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: -100px;
+  background-color: rgb(236, 236, 236, 0.6);
+  font-family: "Permanent Marker", cursive;
+  color:black;
+}
+.burger ul li .taste {
+  margin-top: 5px;
+  float: right;
+  padding: 4px 80px 4px 80px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.burger ul li .taste2 {
+  margin-top: 5px;
+  float: right;
+  padding: 4px 80px 4px 80px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.burger ul li .completed {
+  margin-top: 5px;
+  float: right;
+  padding: 4px 10px 4px 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: green;
+  margin-left: 10px;
+  color: white;
+}
